@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="alignment">
+            CALCULATOR
+        </div>
+        <div class="calc">
+            
+            <div>
+                <h3 >CASIO</h3>
+            </div>
+            <div class="display">
+                <input type="text" id="screen">
+            </div>
+            <br>
+            <div class="move">
+                <input type="button" value="7" class="mode" onclick="calculation(value)">
+                <input type="button" value="8" class="mode"onclick="calculation(value)">
+                <input type="button" value="9" class="mode" onclick="calculation(value)">
+                <br>
+                <input type="button" value="6" class="mode" onclick="calculation(value)">
+                <input type="button" value="5" class="mode" onclick="calculation(value)">
+                <input type="button" value="4" class="mode" onclick="calculation(value)">
+                <br>
+                <input type="button" value="3" class="mode" onclick="calculation(value)">
+                <input type="button" value="2" class="mode" onclick="calculation(value)">
+                <input type="button" value="1" class="mode" onclick="calculation(value)">
+                <br>
+                <input type="button" value="*" class="mode" onclick="calculation(value)">
+                <input type="button" value="0" class="mode" onclick="calculation(value)">
+                <input type="button" value="-" class="mode" onclick="calculation(value)">
+                <br>
+                <input type="button" value="+" class="mode" onclick="calculation(value)">
+                <input type="button" value="/" class="mode" onclick="calculation(value)">
+                <input type="button" value="%" class="mode" onclick="calculation(value)">
+                <br>
+                <input type="button" value="C" class="mode" onclick="cleardisplay()">
+                <input type="button" value="=" class="mode" onclick="home()">
+                <input type="button" value="." class="mode" onclick="calculation(value)">
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>

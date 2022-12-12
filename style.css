@@ -1,0 +1,48 @@
+body{
+    background-image: linear-gradient(to right, rgb(88, 89, 90),rgb(52, 53, 54));
+}
+.calc{
+  background-image: linear-gradient(to right, rgb(74, 154, 233),rgb(17, 107, 197));
+    height: 405px;
+    width: 249px;
+    box-shadow: 4px 4px 4px black;
+    border-radius: 4px;
+    margin-top: 86px;
+    margin-left: 393px;
+}
+#screen{
+   width: 239px;
+    height: 61px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: right;
+    margin: 5px;
+}
+h3{
+    margin-left: 5px;
+}
+.move{
+    margin: 10px;
+}
+.mode{
+    width: 73px;
+    height: 39px;
+    margin-top: 3px;
+    border-radius: 4px;
+    transition-delay: 0.1s;
+    background-color: rgba(3, 170, 236, 0.8);
+    border: none;
+    font-size: 18px;
+}
+.mode:hover{
+    border: 2px solid blue;
+}
+.alignment{
+    font-weight: bold;
+    font-size: 31px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-top: 31px;
+}
